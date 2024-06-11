@@ -6,6 +6,9 @@
     .about-containers{
         flex-wrap: wrap;
     }
+    .projects-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -37,6 +40,9 @@
     }
     .about-container{
         margin-top: 0;
+    }
+    .projects-container {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -89,5 +95,8 @@
     }
     .text-container{
         text-align: justify;
+    }
+    .projects-container {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
