@@ -165,7 +165,7 @@ section{
     justify-content: center;
     gap: 5rem;
     height: 80vh;
-    /* position: relative; */
+    position: relative;
 }
 
 .section__pic-container{

@@ -21,6 +21,9 @@
     #experience, .experience-details-container{
         margin-top: 2rem;
     }
+    #profile{
+        position:static
+    }
     #profile, .section-container{
        display: block; 
     }
